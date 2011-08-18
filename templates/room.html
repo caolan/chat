@@ -1,7 +1,11 @@
 <h1>{room}</h1>
 
 <ol id="messages">
-  <li></li>
+  {#rows}
+    {#doc}
+      <li>{time} &lt;{author}&gt; {text}</li>
+    {/doc}
+  {/rows}
 </ol>
 
 <form id="chatbox" action="" method="POST">
