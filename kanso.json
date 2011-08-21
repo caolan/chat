@@ -1,5 +1,5 @@
 {
-    "name": "huddle",
+    "name": "chat",
     "load": "lib/app",
     "modules": "lib",
     "templates": "templates",
