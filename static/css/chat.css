@@ -68,18 +68,28 @@ body {
 #login_dropdown label {
     width: 70px;
     display: inline-block;
+    color: #eee;
 }
 #login_dropdown input {
     background-color: #666;
-    border: 1px solid #ccc;
-    color: white;
+    border: 1px solid #999;
+    color: #eee;
 }
 #login_form_login,
 #login_form_cancel {
     margin-top: 10px;
     background-color: #ccc !important;
-    border: 1px solid white !important;
-    color: black !important;
+    border: 1px solid #eee !important;
+    color: #181514 !important;
+}
+#login_dropdown .general_errors {
+    color: #DE5858;
+}
+#login_dropdown .validation_error label {
+    color: #DE5858;
+}
+#login_dropdown .validation_error input {
+    border: 1px solid #DE5858;
 }
 
 #appname {
