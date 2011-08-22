@@ -53,6 +53,7 @@ body {
 #session .actions li a {
     padding: 6px 14px;
     display: inline-block;
+    border-left: 1px solid #555;
 }
 #session .actions li a:hover {
     background-color: #2b2b2b;
@@ -96,5 +97,20 @@ body {
     font-weight: bold;
     position: absolute;
     top: 6px;
-    left: 14px;
+    left: 45px;
+    text-shadow: 0px -1px 0px #000;
+    font-size: 15px;
+    border-left: 1px solid #555;
+    padding-left: 10px;
+}
+
+#secondbar {
+    background: #eee;
+    border-bottom: 1px solid #ccc;
+    padding: 14px;
+}
+
+#secondbar h1 {
+    margin: 0;
+    padding: 0;
 }
