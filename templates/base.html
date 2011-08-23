@@ -6,13 +6,15 @@
     <title>{title}</title> 
   </head> 
   <body> 
-    <div id="topbar">
-      <img src="{baseURL}/static/img/circle.png" />
-      <div id="appname">Chat</div>
-      {>"app-session/session.html"/}
-    </div>
-    <div id="secondbar">
-      {secondbar|s}
+    <div id="top">
+      <div id="topbar">
+        <img src="{baseURL}/static/img/circle.png" />
+        <div id="appname">Chat</div>
+        {>"app-session/session.html"/}
+      </div>
+      <div id="secondbar">
+        {secondbar|s}
+      </div>
     </div>
     <div id="content">
       {content|s}
