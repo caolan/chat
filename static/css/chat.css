@@ -142,7 +142,7 @@ html {
 }
 
 #chatbox {
-    height: 50px;
+    height: 64px;
     bottom: 0;
 }
 
@@ -152,7 +152,7 @@ html {
     width: 100%;
     left: 0;
     top: 81px;
-    bottom: 50px;
+    bottom: 64px;
     margin: 0;
     padding: 0;
     overflow-y: scroll;
@@ -164,4 +164,20 @@ html {
     left: 0;
     border-top: 1px solid #ccc;
     background-color: #eee;
+}
+
+#chatbox_form {
+    position: absolute;
+    top: 7px;
+    left: 7px;
+}
+
+#chatbox_form textarea {
+    float: left;
+    background-color: white;
+    border: 1px solid #999;
+}
+
+#chatbox_form input {
+    float: left;
 }
