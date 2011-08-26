@@ -149,13 +149,32 @@ html {
 #messages {
     display: block;
     position: absolute;
-    width: 100%;
     left: 0;
     top: 81px;
     bottom: 64px;
     margin: 0;
     padding: 0;
-    overflow-y: scroll;
+    overflow-y: auto;
+    width: 100%;
+}
+
+#messages table {
+    width: 66%;
+    margin: 14px 7px;
+}
+
+#messages td {
+    padding: 4px 10px;;
+}
+#messages td.author {
+    background-color: #eee;
+    font-weight: bold;
+    width: 90px;
+    text-align: right;
+}
+#messages td.time {
+    color: #999;
+    width: 50px;
 }
 
 #chatbox {

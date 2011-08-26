@@ -1,14 +1,16 @@
-<ol id="messages">
-  {#rows}
-    {#doc}
-      {>"message.html"/}
-    {/doc}
-  {/rows}
-</ol>
+<div id="messages">
+  <table>
+    {#rows}
+      {#doc}
+        {>"message.html"/}
+      {/doc}
+    {/rows}
+  </table>
+</div>
 
 <div id="chatbox">
   <form id="chatbox_form" action="" method="POST">
     <textarea cols="80" rows="2" name="text"></textarea>
-    <input type="submit" value="Send" />
+    <input type="submit" value="Send message" />
   </form>
 </div>
